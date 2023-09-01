@@ -12,25 +12,25 @@
 <div>
     <li>Crie um formulário inicial para login</li>
         <h4>
-            <p>O formulário deve ter um input para receber o nome do usuário antes de entrar na página inicial</p>
+            O formulário deve ter um input para receber o nome do usuário antes de entrar na página inicial
         </h4>
 </div>
 <div>
     <li>Crie uma página inicial que liste todos os agentes</li>
         <h4>
-            <p>A página deve conter uma saudação ao usuário, e deve listar os agentes presentes no data.ts</p>
+            A página deve conter uma saudação ao usuário, e deve listar os agentes presentes no data.ts
         </h4>
 </div>
 <div>
     <li>Crie um card para cada agente presente na página inicial</li>
         <h4>
-            <p>Cada card deve ser renderizado em uma rota diferente, onde cada uma representará uma variável (escolha uma chave do data para diferenciar cada agente)</p>
+            Cada card deve ser renderizado em uma rota diferente, onde cada uma representará uma variável (escolha uma chave do data para diferenciar cada agente)
         </h4>
 </div>
 <div>
     <li>Em cada card, adicione as informações do agente</li>
         <h4>
-            <p>Cada agente deverá ter suas informações logo abaixo de seu card</p>
+            Cada agente deverá ter suas informações logo abaixo de seu card
         </h4>
 </div>
 <div>
