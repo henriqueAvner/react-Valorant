@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <NavBar />
       <div>
-        <h1>Escolha um agente:</h1>
+        <h1>Agentes</h1>
         {agentData.map((agent) => {
           return (
 
