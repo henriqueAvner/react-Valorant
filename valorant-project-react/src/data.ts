@@ -4,6 +4,8 @@ export type AgentDataProp = {
   classe: string;
   habilidades: string[];
   orbes: number;
+  id: number;
+  image: string;
 };
 
 const agentData = [
@@ -13,6 +15,8 @@ const agentData = [
     classe: 'Controlador',
     habilidades: ['pulso nova', 'nebulosa', 'poço gravitacional', 'divisa cósmica'],
     orbes: 7,
+    id: 1,
+    image: './src/images/astra.png',
   },
   {
     name: 'Breach',
@@ -20,6 +24,8 @@ const agentData = [
     classe: 'Iniciador',
     habilidades: ['estopim', 'falha tectônica', 'pós-choque', 'onda trovejante'],
     orbes: 7,
+    id: 2,
+    image: './src/images/breach.png',
   },
   {
     name: 'Brimstone',
@@ -28,6 +34,8 @@ const agentData = [
     habilidades: ['incendiário',
       'fumaça celeste', 'sinalizador estimulante', 'ataque orbital'],
     orbes: 7,
+    id: 3,
+    image: './src/images/brimstone.png',
   },
   {
     name: 'Chamber',
@@ -36,6 +44,8 @@ const agentData = [
     habilidades: ['caçador de cabeças',
       'rendezvous', 'marca registrada', 'tour de force'],
     orbes: 7,
+    id: 4,
+    image: './src/images/chamber.png',
   },
   {
     name: 'Cypher',
@@ -44,6 +54,8 @@ const agentData = [
     habilidades: ['jaula cibernética',
       'câmera de vigilância', 'fio-armadilha', 'assalto neural'],
     orbes: 6,
+    id: 5,
+    image: './src/images/cypher.png',
   },
   {
     name: 'Fade',
@@ -51,6 +63,8 @@ const agentData = [
     classe: 'Iniciadora',
     habilidades: ['clausura', 'assombrar', 'espreitador', 'véu da noite'],
     orbes: 7,
+    id: 6,
+    image: './src/images/fade.png',
   },
   {
     name: 'Jett',
@@ -59,6 +73,8 @@ const agentData = [
     habilidades: ['corrente ascendente',
       'brisa de impulso', 'erupção das brumas', 'tormenta de aço'],
     orbes: 7,
+    id: 7,
+    image: './src/images/jett.png',
   },
   {
     name: 'Kay/o',
@@ -66,6 +82,8 @@ const agentData = [
     classe: 'Iniciador',
     habilidades: ['granada/clarão', 'ponto/zero', 'frag/mento', 'anular/CMD'],
     orbes: 7,
+    id: 8,
+    image: './src/images/kayo.png',
   },
   {
     name: 'Killjoy',
@@ -73,6 +91,8 @@ const agentData = [
     classe: 'Sentinela',
     habilidades: ['robô de alarme', 'torreta', 'nanoenxame', 'confinamento'],
     orbes: 7,
+    id: 9,
+    image: './src/images/killjoy.png',
   },
   {
     name: 'Neon',
@@ -81,6 +101,8 @@ const agentData = [
     habilidades: ['ricochete elétrico',
       'equipamento voltaico', 'via expressa', 'sobrecarga'],
     orbes: 7,
+    id: 10,
+    image: './src/images/neon.png',
   },
   {
     name: 'Omen',
@@ -88,6 +110,8 @@ const agentData = [
     classe: 'Controlador',
     habilidades: ['paranoia', 'manto sombrio', 'passos tenebrosos', 'salto das sombras'],
     orbes: 7,
+    id: 11,
+    image: './src/images/omen.png',
   },
   {
     name: 'Phoenix',
@@ -95,6 +119,8 @@ const agentData = [
     classe: 'Duelista',
     habilidades: ['bola curva', 'mãos quentes', 'labareda', 'renascimento'],
     orbes: 6,
+    id: 12,
+    image: './src/images/phoenix.png',
   },
   {
     name: 'Raze',
@@ -103,6 +129,8 @@ const agentData = [
     habilidades: ['cargas de explosivos',
       'cartucho de tinta', 'bumba', 'estraga-prazeres'],
     orbes: 7,
+    id: 13,
+    image: './src/images/raze.png',
   },
   {
     name: 'Reyna',
@@ -110,6 +138,8 @@ const agentData = [
     classe: 'Duelista',
     habilidades: ['devorar', 'dispensar', 'olhar voraz', 'imperatriz'],
     orbes: 6,
+    id: 14,
+    image: './src/images/reyna.png',
   },
   {
     name: 'Sage',
@@ -118,6 +148,8 @@ const agentData = [
     habilidades: ['orbe de lentidão',
       'orbe curativo', 'orbe de barreira', 'ressurreição'],
     orbes: 8,
+    id: 15,
+    image: './src/images/sage.png',
   },
   {
     name: 'Skye',
@@ -126,6 +158,8 @@ const agentData = [
     habilidades: ['predador explosivo',
       'luz desbravadora', 'reflorescer', 'rastreadores'],
     orbes: 6,
+    id: 16,
+    image: './src/images/skye.png',
   },
   {
     name: 'Sova',
@@ -134,6 +168,8 @@ const agentData = [
     habilidades: ['flecha de choque',
       'flecha rastreadora', 'drone coruja', 'fúria do caçador'],
     orbes: 8,
+    id: 17,
+    image: './src/images/sova.png',
   },
   {
     name: 'Viper',
@@ -142,6 +178,8 @@ const agentData = [
     habilidades: ['nuvem venenosa',
       'cortina tóxica', 'veneno de cobra', 'poço peçonhento'],
     orbes: 7,
+    id: 18,
+    image: './src/images/viper.png',
   },
   {
     name: 'Yoru',
@@ -150,6 +188,8 @@ const agentData = [
     habilidades: ['ponto cego',
       'passagem dimensional', 'distração', 'espionagem dimensional'],
     orbes: 6,
+    id: 19,
+    image: './src/images/yoru.png',
   },
 
 ];
