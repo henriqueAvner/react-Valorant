@@ -17,7 +17,7 @@ const agentData = [
       'E - nebulosa', 'C - poço gravitacional', 'X - divisa cósmica'],
     orbes: 7,
     id: 1,
-    image: './src/images/astra.png',
+    image: '/src/images/astra.png',
   },
   {
     name: 'Breach',
@@ -27,7 +27,7 @@ const agentData = [
       'E - falha tectônica', 'C - pós-choque', 'X - onda trovejante'],
     orbes: 7,
     id: 2,
-    image: './src/images/breach.png',
+    image: '/src/images/breach.png',
   },
   {
     name: 'Brimstone',
@@ -37,7 +37,7 @@ const agentData = [
       'E - fumaça celeste', 'C - sinalizador estimulante', 'X - ataque orbital'],
     orbes: 7,
     id: 3,
-    image: './src/images/brimstone.png',
+    image: '/src/images/brimstone.png',
   },
   {
     name: 'Chamber',
@@ -47,7 +47,7 @@ const agentData = [
       'E - rendezvous', 'C - marca registrada', 'X - tour de force'],
     orbes: 7,
     id: 4,
-    image: './src/images/chamber.png',
+    image: '/src/images/chamber.png',
   },
   {
     name: 'Cypher',
@@ -57,7 +57,7 @@ const agentData = [
       'E - câmera de vigilância', 'C - fio-armadilha', 'X - assalto neural'],
     orbes: 6,
     id: 5,
-    image: './src/images/cypher.png',
+    image: '/src/images/cypher.png',
   },
   {
     name: 'Fade',
@@ -66,7 +66,7 @@ const agentData = [
     habilidades: ['Q - clausura', 'E - assombrar', 'C - espreitador', 'X - véu da noite'],
     orbes: 7,
     id: 6,
-    image: './src/images/fade.png',
+    image: '/src/images/fade.png',
   },
   {
     name: 'Jett',
@@ -76,17 +76,17 @@ const agentData = [
       'E - brisa de impulso', 'C - erupção das brumas', 'X - tormenta de aço'],
     orbes: 7,
     id: 7,
-    image: './src/images/jett.png',
+    image: '/src/images/jett.png',
   },
   {
-    name: 'Kay/o',
+    name: 'Kayo',
     pais: 'Undefined',
     classe: 'Iniciador',
     habilidades: ['Q - granada/clarão',
       'E - ponto/zero', 'C - frag/mento', 'X - anular/CMD'],
     orbes: 7,
     id: 8,
-    image: './src/images/kayo.png',
+    image: '/src/images/kayo.png',
   },
   {
     name: 'Killjoy',
@@ -96,7 +96,7 @@ const agentData = [
       'E - torreta', 'C - nanoenxame', 'X - confinamento'],
     orbes: 7,
     id: 9,
-    image: './src/images/killjoy.png',
+    image: '/src/images/killjoy.png',
   },
   {
     name: 'Neon',
@@ -106,7 +106,7 @@ const agentData = [
       'E - equipamento voltaico', 'C - via expressa', 'X - sobrecarga'],
     orbes: 7,
     id: 10,
-    image: './src/images/neon.png',
+    image: '/src/images/neon.png',
   },
   {
     name: 'Omen',
@@ -116,7 +116,7 @@ const agentData = [
       'E - manto sombrio', 'C - passos tenebrosos', 'X - salto das sombras'],
     orbes: 7,
     id: 11,
-    image: './src/images/omen.png',
+    image: '/src/images/omen.png',
   },
   {
     name: 'Phoenix',
@@ -126,7 +126,7 @@ const agentData = [
       'E - mãos quentes', 'C - labareda', 'X - renascimento'],
     orbes: 6,
     id: 12,
-    image: './src/images/phoenix.png',
+    image: '/src/images/phoenix.png',
   },
   {
     name: 'Raze',
@@ -136,7 +136,7 @@ const agentData = [
       'E - cartucho de tinta', 'C - bumba', 'X - estraga-prazeres'],
     orbes: 7,
     id: 13,
-    image: './src/images/raze.png',
+    image: '/src/images/raze.png',
   },
   {
     name: 'Reyna',
@@ -145,7 +145,7 @@ const agentData = [
     habilidades: ['Q - devorar', 'E - dispensar', 'C - olhar voraz', 'X - imperatriz'],
     orbes: 6,
     id: 14,
-    image: './src/images/reyna.png',
+    image: '/src/images/reyna.png',
   },
   {
     name: 'Sage',
@@ -155,7 +155,7 @@ const agentData = [
       'E - orbe curativo', 'C - orbe de barreira', 'X - ressurreição'],
     orbes: 8,
     id: 15,
-    image: './src/images/sage.png',
+    image: '/src/images/sage.png',
   },
   {
     name: 'Skye',
@@ -165,7 +165,7 @@ const agentData = [
       'E - luz desbravadora', 'C - reflorescer', 'X - rastreadores'],
     orbes: 6,
     id: 16,
-    image: './src/images/skye.png',
+    image: '/src/images/skye.png',
   },
   {
     name: 'Sova',
@@ -175,7 +175,7 @@ const agentData = [
       'E - flecha rastreadora', 'C - drone coruja', 'X - fúria do caçador'],
     orbes: 8,
     id: 17,
-    image: './src/images/sova.png',
+    image: '/src/images/sova.png',
   },
   {
     name: 'Viper',
@@ -185,7 +185,7 @@ const agentData = [
       'E - cortina tóxica', 'C - veneno de cobra', 'X - poço peçonhento'],
     orbes: 7,
     id: 18,
-    image: './src/images/viper.png',
+    image: '/src/images/viper.png',
   },
   {
     name: 'Yoru',
@@ -195,7 +195,7 @@ const agentData = [
       'E - passagem dimensional', 'C - distração', 'X - espionagem dimensional'],
     orbes: 6,
     id: 19,
-    image: './src/images/yoru.png',
+    image: '/src/images/yoru.png',
   },
 
 ];

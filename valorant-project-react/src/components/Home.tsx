@@ -18,14 +18,6 @@ export default function Home() {
             <div key={ agent.id }>
               <Link to={ `/home/${agent.name}` }><h2>{agent.name}</h2></Link>
               <img src={ agent.image } alt={ agent.name } />
-              <div>
-                {agent.habilidades.map((habil) => {
-                  return (
-                    <h3 key={ habil }>{habil}</h3>
-                  );
-                })}
-              </div>
-              <h3>{`Orbes para ultimate: ${agent.orbes}`}</h3>
             </div>
           );
         })}
