@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import NavBar from './nav-bar';
 import agentData from '../data';
 
@@ -16,12 +16,12 @@ export default function Home() {
           return (
 
             <div key={ agent.id }>
-              <h2>{agent.name}</h2>
+              <Link to={ `/home/${agent.name}` }><h2>{agent.name}</h2></Link>
               <img src={ agent.image } alt={ agent.name } />
               <div>
                 {agent.habilidades.map((habil) => {
                   return (
-                    <h3 key={ agent.id }>{habil}</h3>
+                    <h3 key={ habil }>{habil}</h3>
                   );
                 })}
               </div>
@@ -34,3 +34,4 @@ export default function Home() {
     </>
   );
 }
+// img - 201x350
