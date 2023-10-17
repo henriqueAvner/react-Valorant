@@ -12,7 +12,7 @@ export default function Agent() {
   if (!currAgent) {
     return (
       <div>
-        <h1>Oops! Esse agente não está disponível</h1>
+        <h1>Oops! Esse agente não está disponível =\</h1>
         <h2>
           Acesse a
           {' '}
