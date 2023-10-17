@@ -1,4 +1,5 @@
 import { Link, useNavigate } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 import NavBar from './nav-bar';
 import agentData from '../data';
 
@@ -7,11 +8,20 @@ export default function Home() {
   function Click() {
     navigate(-1);
   }
+  type RootState = {
+    user: string;
+  };
+  const user = useSelector((state: RootState) => state.user);
   return (
     <>
       <NavBar />
       <div>
-        <h1>Agentes</h1>
+        <h1>
+          Bem vindo,
+          {' '}
+          {user}
+        </h1>
+        <h2>Agentes</h2>
         {agentData.map((agent) => {
           return (
 
