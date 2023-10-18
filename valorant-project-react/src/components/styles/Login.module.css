@@ -1,0 +1,89 @@
+body {
+    
+    background-image: url("src/images/bow-sova.jpg");
+}
+.formClass {
+    
+    background: linear-gradient(to bottom, #04035a, #0c51e6);
+    padding: 60px; 
+    width: 300px; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.formClass h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    color: #fff;
+
+ }
+
+
+.input1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: bolder;
+    
+    background: transparent;
+    border: none;
+    outline: none;
+  
+    width: 100%;
+    padding: 10px;
+  
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    transition:  0.8s;
+}
+
+.input1:hover {
+    background-color: #07aaf0;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 10px;
+    
+    background: transparent;
+    border: none;
+    outline: none;
+  
+    width: 100%;
+    padding: 10px;
+   
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: uppercase;
+    transition:  0.8s;
+}
+.input2:hover {
+    background-color: #07aaf0;
+    font-weight: bolder;
+}
+
+.formClass button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 108%;
+    transition: background-color 0.8s;
+  }
+  
+  .formClass button:disabled {
+    background-color: #2a2828;
+  }
+  
+  .formClass button:hover {
+    background-color: #07aaf0;
+  }
